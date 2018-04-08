@@ -43,7 +43,7 @@ class DaemonThread implements Runnable{
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
-		System.out.println("进入守护线程"+Thread.currentThread().getName());
+		System.out.println("退出守护线程"+Thread.currentThread().getName());
 
 	}
 
